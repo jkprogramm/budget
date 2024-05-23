@@ -159,7 +159,7 @@ function updateUI(){
 function showEntry(list, type, title, amount, id){
 
     const entry = ` <li id = "${id}" class="${type}">
-                        <div class="entry">${title}: $${amount}</div>
+                        <div class="entry">${title}: ${amount} сом</div>
                         <div id="edit"></div>
                         <div id="delete"></div>
                     </li>`;
